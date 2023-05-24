@@ -19,9 +19,11 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: #2C3333;
+  --color-primary: #2E4F4F;
+  --color-secondary: #0E8388;
+  --color-titulos: #0E8388;
+  --color-fondo:#CBE4DE;
 }
 
 /* Smooth scroll behavior */
@@ -318,7 +320,8 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  font-weight: bold;
+  color: var(--color-secondary);
 }
 
 .sticked-header-offset {
@@ -611,6 +614,10 @@ section {
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
+}
+
+#about{
+  background: var(--color-fondo);
 }
 
 .about .call-us {
@@ -934,6 +941,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding: 60px 0;
+  background-color: var(--color-fondo);
 }
 
 .services .service-item {
@@ -1016,7 +1024,7 @@ section {
   margin: 30px 10px;
   box-shadow: 0px 0 15px rgba(0, 0, 0, 0.1);
   position: relative;
-  background: #fff;
+  background: var(--color-fondo);
   border-radius: 10px;
 }
 
@@ -1440,7 +1448,7 @@ section {
 .pricing .pricing-item {
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
-  background: #fff;
+  background: var(--color-fondo);
   height: 100%;
   position: relative;
   border-radius: 15px;
@@ -1710,8 +1718,12 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+#contact{
+  background-color: var(--color-fondo);
+}
+
 .contact .info-container {
-  background-color: var(--color-primary);
+  background-color: var(--color-fondo);
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;
