@@ -293,7 +293,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: var(--color-primary);
+  background-color: var(--color-default);
 }
 
 .header.sticked {
@@ -1895,6 +1895,20 @@ section {
   height: 100%;
 }
 
+#hero-texto{
+  height: 100%;
+}
+#hero-img{
+  height: 100%;
+  justify-content: center;
+}
+
+#hero-img>img{
+  width: 100%;
+}
+
+
+
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
@@ -1954,8 +1968,22 @@ section {
 }
 
 @media (max-width: 640px) {
+  #hero{
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  #hero-texto{
+    height: auto;
+  }
+  #hero-img{
+    height: auto;
+  }
   .hero h2 {
     font-size: 36px;
+  }
+
+  .btn-get-started{
+    padding: 0;
   }
 
   .hero .btn-get-started,
