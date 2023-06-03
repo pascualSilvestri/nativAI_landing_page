@@ -24,7 +24,7 @@
   --color-default: #2a1d4c;
   --color-primary: #2a1d4c  ;
   --color-secondary: #6e45ff;
-  --color-titulos: #0e8388;
+  --color-titulos: #6e45ff;
   --color-fondo: #cbe4de;
 }
 
@@ -242,7 +242,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #6e45ff;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -432,7 +432,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #6e45ff;
   }
 
   .navbar .dropdown ul a i {
@@ -502,7 +502,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #6e45ff;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -548,7 +548,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #6e45ff;
   }
 
   .navbar .dropdown ul,
@@ -558,8 +558,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #6e45ff;
+    border: 1px solid #6e45ff;
   }
 
   .navbar .dropdown > .dropdown-active,
@@ -601,7 +601,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: #6e45ff;
     z-index: 9996;
   }
 }
