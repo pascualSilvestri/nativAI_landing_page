@@ -2023,13 +2023,20 @@ section {
     height: auto;
     padding-bottom: 2rem;
   }
+
+  #titulo-hero{
+    flex-direction: column-reverse;
+    padding: 0;
+  }
   #hero-texto {
     height: auto;
     border-radius: 0 0 0 0;
     padding: 3rem 2rem;
+    width: 100%;
   }
   #hero-img {
     height: auto;
+    width: 100%;
   }
   #hero-img img {
     width: 100%;
