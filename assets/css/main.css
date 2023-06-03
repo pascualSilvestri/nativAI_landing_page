@@ -1474,13 +1474,25 @@ section {
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
-.pricing .pricing-item {
+
+.contenedor-pricing{
   padding: 60px 40px;
   box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
   background: #a1f8f4;
   height: 100%;
   position: relative;
   border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-pricing{
+  width: 40%;
+}
+
+.pricing .pricing-item {
+
 }
 
 .pricing h3 {
@@ -1610,6 +1622,22 @@ section {
 @media (min-width: 992px) {
   .pricing .featured {
     transform: scale(1.15);
+  }
+
+}
+
+@media (max-width: 767px) {
+  .contenedor-pricing{
+    flex-direction: column-reverse;
+  }
+
+  .img-pricing{
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  .img-pricing img{
+    width: 80%;
   }
 }
 
