@@ -2073,17 +2073,21 @@ section {
   #hero-img img {
     width: 100%;
   }
+
+  #hero-texto h2 {
+    font-size: 1.5rem;
+  }
   .hero h2 {
     font-size: 36px;
   }
 
-  .btn-get-started {
-    padding: 0;
-  }
+  .hero .btn-get-started {
+    padding: 10px 20px;
 
+  }
   .hero .btn-get-started,
   .hero .btn-watch-video {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
