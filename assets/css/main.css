@@ -2070,6 +2070,10 @@ section {
   #hero-img img {
     width: 100%;
   }
+
+  #hero-texto h2 {
+    font-size: 1.5rem;
+  }
   .hero h2 {
     font-size: 36px;
   }
