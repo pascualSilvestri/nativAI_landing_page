@@ -24,12 +24,12 @@
   --color-default: #2a1d4c;
   --color-primary: #2a1d4c;
   --color-secondary: #6e45ff;
-  --color-titulos: #6e45ff;
+  --color-titulos: #7a7886;
   --color-fondo: #f6f6f6;
 }
 
 /* Smooth scroll behavior */
-:root {
+:root { 
   scroll-behavior: smooth;
 }
 
@@ -39,6 +39,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  background-color: var(--color-default);
 }
 
 a {
@@ -826,24 +827,35 @@ section {
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
-.call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cta-bg.jpg") center center;
-  background-size: cover;
+
+#call-to-action{
+
+}
+
+#contenedor-call-to-action {
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+}
+
+
+.call-to-action .containerr {
+  background-color: var(--color-fondo);
   padding: 100px 60px;
   border-radius: 15px;
   overflow: hidden;
+  width: 100%;
 }
 
 .call-to-action h3 {
-  color: #fff;
+  color: var(--color-primary);
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .call-to-action p {
-  color: #fff;
+  color: var(--color-titulos);
   margin-bottom: 20px;
 }
 
@@ -917,7 +929,8 @@ section {
 }
 
 .call-to-action .cta-btn {
-  font-family: var(--font-primary);
+  background-color: var(--color-primary);
+  font-family: var(--color-fondo);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1900,6 +1913,8 @@ section {
   height: 90vh;
   position: relative;
   background: #fff;
+  /* border-radius:  0 0 50% 0;
+  margin-bottom: 2rem; */
 }
 
 #contenedor-titulo-hero {
@@ -1908,13 +1923,20 @@ section {
 
 #titulo-hero {
   height: 100%;
+  display: flex;
+  padding-bottom: 2rem;
 }
 
 #hero-texto {
   height: 80%;
+  width: 50%;
   background-color: var(--color-primary);
   padding: 0 5rem;
   border-radius: 0 0 50% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2rem;
 }
 
 #hero-texto h2 {
@@ -1927,13 +1949,15 @@ section {
 
 #hero-img {
   height: 100%;
+  width: 50%;
+  display: flex;
   justify-content: center;
   background-color: #fff;
   align-items: center;
 }
 
 #hero-img > img {
-  width: 80%;
+  height:100%;
 }
 
 @media (min-width: 1365px) {
@@ -1999,13 +2023,21 @@ section {
     height: auto;
     padding-bottom: 2rem;
   }
+
+  #titulo-hero{
+    flex-direction: column-reverse;
+    padding: 0;
+  }
   #hero-texto {
     height: auto;
     border-radius: 0 0 0 0;
     padding: 3rem 2rem;
+    width: 100%;
   }
   #hero-img {
+    padding-top: 2rem;
     height: auto;
+    width: 100%;
   }
   #hero-img img {
     width: 100%;
