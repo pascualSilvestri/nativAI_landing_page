@@ -2004,6 +2004,9 @@ section {
   #hero-img {
     height: auto;
   }
+  #hero-img img{
+    width: 100%;
+  }
   .hero h2 {
     font-size: 36px;
   }
