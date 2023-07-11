@@ -327,6 +327,7 @@ section {
   letter-spacing: 0.8px;
   color: #fff;
   font-family: var(--font-primary);
+  text-align: start;
 }
 
 .header .logo h1 span {
@@ -1489,8 +1490,21 @@ section {
   position: relative;
   border-radius: 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+}
+.pricing-item{
+  width: 50%  ;
+}
+
+.img-pricing{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#img_prec{
+  width: 50%;
 }
 
 .btn-registrate {
@@ -1946,6 +1960,12 @@ section {
   background: #fff;
   /* border-radius:  0 0 50% 0;
   margin-bottom: 2rem; */
+}
+
+.video_hero{
+  border-radius: 40px;
+  width: 90%;
+  margin-bottom: 5rem;
 }
 
 #contenedor-titulo-hero {
