@@ -3,30 +3,11 @@
 
 <head>
 
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TMLB596');
-  </script>
-    <!-- End Google Tag Manager -->
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WP2YELSYKJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WP2YELSYKJ');
-  </script>
+  <title>NATIVAI</title>
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NATIVAI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -51,6 +32,62 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NFBBGW5B');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '631790948944219');
+    fbq('track', 'PageView');
+    fbq('track', 'StartTrial', { value: '0.00', currency: 'USD', predicted_ltv: '0.00' });
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=631790948944219&ev=PageView
+  &noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NBF8CLWDBV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NBF8CLWDBV');
+  </script>
+
+  <!-- Hotjar Tracking Code for https://nativai.xyz/ -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3577071, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
   <!-- =======================================================
   * Template Name: Impact
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
@@ -62,10 +99,10 @@
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMLB596"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFBBGW5B" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- ======= Header ======= -->
   <!-- <section id="topbar" class="topbar d-flex align-items-center">
@@ -120,14 +157,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Una IA que simula ser un hablante nativo para ayudarte a mejorar tu inglés conversacional
           </h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#mc_embed_signup" class="btn-get-started">Mas Informacion</a>
+            <a href="#mc_embed_signup" id="mas_info" class="btn-get-started ">Mas Informacion</a>
             <a href="https://www.youtube.com/watch?v=TfxEvpXlvJI"
               class="glightbox btn-watch-video d-flex align-items-center"><i
                 class="bi bi-play-circle"></i><span>Conocenos</span></a>
           </div>
         </div>
         <div id="hero-img" class="">
-          <img src="assets/video/Responsive_Devices_Screen_Mockup_02.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+          <img src="assets/video/Responsive_Devices_Screen_Mockup_02.png" class="img-fluid" alt="" data-aos="zoom-out"
+            data-aos-delay="100">
           <!-- <iframe class="video_hero" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TfxEvpXlvJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
           <!-- <video class="video_hero" src="./assets/video/NativAI.mp4" controls autoplay></video> -->
         </div>
@@ -203,7 +241,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section id="call-to-action" class="call-to-action">
       <div id="contenedor-call-to-action" class="containerr text-center" data-aos="zoom-out">
         <h3>Si ya te cansaste de probar métodos para principiantes, este es tu lugar</h3>
-        <p>NativAI nace pensando en personas con un nivel de inglés B1 o superior, a quienes ya no nos sirven las típicas apps de idiomas más que para jugar.
+        <p>NativAI nace pensando en personas con un nivel de inglés B1 o superior, a quienes ya no nos sirven las
+          típicas apps de idiomas más que para jugar.
           <br>
           ¡Sumérgete en un mundo nuevo de posibilidades lingüísticas!
         </p>
@@ -232,7 +271,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><i class="bi bi-check"></i> Certifica tu nivel de ingles</li>
                 <li class="na"><i class="bi bi-x"></i> <span>Recibe acompañamiento de profesores</span></li>
               </ul>
-              <div class="text-center"><a  id="btn-individual" href="#mc_embed_signup" class="buy-btn">Anotate a la lista de espera</a></div>
+              <div class="text-center"><a id="btn-individual" href="#mc_embed_signup" class="buy-btn">Anotate a la lista
+                  de espera</a></div>
             </div>
             <div class="img-pricing">
               <img id="img_prec" src="/assets/video/individual.png" alt="">
@@ -249,7 +289,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><i class="bi bi-check"></i>Crea tareas personalizadas.</li>
                 <!-- <li class="na"><i class="bi bi-x"></i> <span>Recibe acompañamiento de profesores</span></li> -->
               </ul>
-              <div  class="text-center"><a id="btn-profesor" href="#mc_embed_signup" class="buy-btn">Anotate a la lista de espera</a></div>
+              <div class="text-center"><a id="btn-profesor" href="#mc_embed_signup" class="buy-btn">Anotate a la lista
+                  de espera</a></div>
             </div>
             <div class="img-pricing">
               <img id="img_prec" src="/assets/video/profesor.png" alt="">
@@ -266,10 +307,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <li><i class="bi bi-check"></i>Acceso a estadísticas individuales.</li>
                 <li><i class="bi bi-check"></i>Crea tareas personalizadas.</li>
                 <li><i class="bi bi-check"></i>Crea certificaciones</li>
-                
+
                 <li class="na"><i class="bi bi-x"></i> <span>Recibe acompañamiento de profesores</span></li>
               </ul>
-              <div  class="text-center"><a id="btn-academia" href="#mc_embed_signup" class="buy-btn">Anotate a la lista de espera</a></div>
+              <div class="text-center"><a id="btn-academia" href="#mc_embed_signup" class="buy-btn">Anotate a la lista
+                  de espera</a></div>
             </div>
             <div class="img-pricing">
               <img id="img_prec" src="/assets/video/academia.png" alt="">
@@ -314,7 +356,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="bi bi-body-text"></i>
               </div>
               <h3>Feedback en tiempo real</h3>
-              <p>Al conversar con Nati, cada interacción tendrá un pequeño botón desplegable que analiza tu respuesta. Obtén estadísticas personalizadas sobre tu vocabulario, gramática y fluidez en la comunicación.</p>
+              <p>Al conversar con Nati, cada interacción tendrá un pequeño botón desplegable que analiza tu respuesta.
+                Obtén estadísticas personalizadas sobre tu vocabulario, gramática y fluidez en la comunicación.</p>
               <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
@@ -339,7 +382,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <h3>Conversaciones personalizadas.</h3>
-              <p>Disfruta de conversaciones dinámicas y enriquecedoras con nuestro sistema de inteligencia artificial. Usa los chats preconfigurados con objetivos enfocados en mejorar tus oportunidades laborales, o crea un chat nuevo con un tema de tu interés y Nati te responderá de manera coherente y relevante.</p>
+              <p>Disfruta de conversaciones dinámicas y enriquecedoras con nuestro sistema de inteligencia artificial.
+                Usa los chats preconfigurados con objetivos enfocados en mejorar tus oportunidades laborales, o crea un
+                chat nuevo con un tema de tu interés y Nati te responderá de manera coherente y relevante.</p>
               <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
@@ -350,7 +395,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <i class="bi bi-calendar4-week"></i>
               </div>
               <h3>No venimos a reemplazar a nadie</h3>
-              <p>¡Teachers no se asusten! Los necesitamos para que sigan enseñando teoría. Con tu cuenta de Teacher o Academy podrás supervisar, evaluar y obtener información en tiempo real sobre el rendimiento de tus alumnos. Brinda retroalimentación personalizada y mejora su aprendizaje. ¡Potencia el éxito académico de tus alumnos con nuestra AI especializada en seguimiento y evaluación!</p>
+              <p>¡Teachers no se asusten! Los necesitamos para que sigan enseñando teoría. Con tu cuenta de Teacher o
+                Academy podrás supervisar, evaluar y obtener información en tiempo real sobre el rendimiento de tus
+                alumnos. Brinda retroalimentación personalizada y mejora su aprendizaje. ¡Potencia el éxito académico de
+                tus alumnos con nuestra AI especializada en seguimiento y evaluación!</p>
               <!-- <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
@@ -777,7 +825,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <!-- ======= Pricing Section ======= -->
-   
+
     <!-- End Pricing Section -->
 
     <!-- ======= About Us Section ======= -->
